@@ -2,6 +2,8 @@
 
 Converts **absolute** SVG paths to a simple JSON format.
 
+For now, you can use Inkscape to convert the SVG to the requisite format.
+
 ## Using
 
 First, install dependencies in `requirements.txt`
