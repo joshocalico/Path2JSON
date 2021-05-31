@@ -16,3 +16,17 @@ For example:
 
 - Extension to support relative SVG paths.
 - Better validation.
+
+# Format
+
+Generates a list of paths contained in the SVG.
+Each path is an array of operations.
+Each operation has a batch of arguments, similar to an actual SVG file.
+
+Most are just co-ordinates.
+
+Two exceptions are the Arc curve and the closed path notation.
+
+The closed path (Z) is a no-op.
+
+The arc (A) follows this [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d#elliptical_arc_curve). 
