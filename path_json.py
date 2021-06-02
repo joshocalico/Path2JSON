@@ -54,7 +54,7 @@ def path_to_json(path: str):
         if is_opcode:
             if current_op != is_opcode:
                 if current_op:
-                    result_list.append({ current_op: op_actions })
+                    result_list.append([ current_op, op_actions ])
                 op_actions = []
                 current_op = is_opcode
 
