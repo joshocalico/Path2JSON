@@ -73,7 +73,7 @@ def path_to_json(path: str):
             print("At parse of", next_token)
             break
 
-    result_list.append({ current_op: op_actions })
+    result_list.append([ current_op, op_actions ])
     return result_list
 
 def do_convert():
