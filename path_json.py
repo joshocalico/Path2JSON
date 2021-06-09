@@ -32,7 +32,7 @@ def arc_op(tokens: list):
 # Whitelist
 
 def new_op(tokens: list):
-    if tokens[0] in ["M", "C", "A", "L", "Z"]:
+    if tokens[0] in ["M", "C", "A", "Q", "L", "Z"]:
         return tokens.pop(0)
 
 ### Actual logic
